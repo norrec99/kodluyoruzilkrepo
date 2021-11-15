@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+}
+
+#col-1 {
+  background-color: white;
+  flex: 1;
+}
+
+#col-2 {
+  background-color: white;
+  flex: 1;
+}
