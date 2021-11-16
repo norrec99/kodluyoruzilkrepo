@@ -1,0 +1,28 @@
+.container {
+  text-align: center;
+  list-style-position: inside;
+}
+.sub-container {
+  background-color: lightgray;
+  width: 50%;
+  align-content: center;
+  margin: auto;
+}
+.search-box {
+  border: 1px black solid;
+  background-color: white;
+  width: 50%;
+  margin: auto;
+}
+.grid-container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  text-align: center;
+  padding-top: 5px;
+}
+.grid-item {
+  background-color: lightseagreen;
+}
